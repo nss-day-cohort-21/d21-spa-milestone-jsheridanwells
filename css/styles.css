@@ -1,0 +1,21 @@
+.container {
+	width: 95%;
+}
+
+#input {
+	
+	margin: 1em auto;
+	width: 20em;
+}
+
+/*MAIN CONTAINER STYLING*/
+.spacer {
+	margin-top: 60px;
+}
+
+.card {
+	margin: 0em;
+	padding: 1em;
+	text-align: center;
+	border: 1px solid #000;
+}
