@@ -1,0 +1,67 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Chrysler",
+      "model": "Town and Country",
+      "year": "2009",
+      "price": "16998",
+      "description": "Leather Seats, Power Sliding Door(s), Power Liftgate/DeckLid, Satellite Radio Ready, DVD Video System, Rear View Camera"
+    },
+    {
+      "make": "Dodge",
+      "model": "Grand Caravan",
+      "year": "2014",
+      "price": "16998",
+      "description": "Satellite Radio Ready, DVD Video System, Rear View Camera, Fold-Away Third Row, Fold-Away Middle Row, 3rd Rear Seat"
+    },
+    {
+      "make": "Nissan",
+      "model": "Xterra",
+      "year": "2008",
+      "price": "10998",
+      "description": "Tow Hitch, Running Boards, Auxiliary Audio Input, Cruise Control, Alloy Wheels, Traction Control"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Traverse",
+      "year": "2009",
+      "price": "13599",
+      "description": "Power Liftgate/DeckLid, BOSE Sound System, Parking Sensors, Rear View Camera, 3rd Rear Seat, Fold-Away Third Row"
+    },
+        {
+      "make": "Hyundai",
+      "model": "Genesis",
+      "year": "2012",
+      "price": "18998",
+      "description": "Power Liftgate/DeckLid, BOSE Sound System, Parking Sensors, Rear View Camera, 3rd Rear Seat, Fold-Away Third Row"
+    },
+    {
+      "make": "Audi",
+      "model": "A4",
+      "year": "2014",
+      "price": "24998",
+      "description": "Sport Package, S-Line, 4WD/AWD, Turbo Charged Engine, Leather Seats, Parking Sensors"
+    },
+    {
+      "make": "Toyota",
+      "model": "Prius",
+      "year": "2014",
+      "price": "16998",
+      "description": "Auxiliary Audio Input, Rear Spoiler, Overhead Airbags, Traction Control, Side Airbags, Air Conditioning"
+    },
+    {
+      "make": "Lexus",
+      "model": "CT",
+      "year": "2017",
+      "price": "27998",
+      "description": "Leatherette Seats, Front Seat Heaters, Sunroof(s), Satellite Radio Ready, Auxiliary Audio Input, Overhead Airbags"
+    }
+  ]
+}

@@ -19,3 +19,8 @@
 	text-align: center;
 	border: 1px solid #000;
 }
+
+.card:hover, .selected {
+	border: 2px solid #000;
+	background-color: #caebf2;
+}
