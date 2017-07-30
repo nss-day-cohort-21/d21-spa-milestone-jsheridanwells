@@ -18,6 +18,7 @@
 	padding: 1em;
 	text-align: center;
 	border: 1px solid #000;
+	min-height: 25em;
 }
 
 .card:hover, .selected {
