@@ -25,7 +25,7 @@ var CarLot = (function(){
 	    			</div>
 				`;
 			}
-
+			CarLot.editCard();
 		}
 	}
 }());

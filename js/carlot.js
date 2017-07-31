@@ -17,7 +17,7 @@ var CarLot = (function (globalScopeCarLot) {
       });
       load.open('GET', '../inventory.json');
       load.send();
-    }
+    };
   return globalScopeCarLot;
 
   // If this is the first module that gets evaluated,
