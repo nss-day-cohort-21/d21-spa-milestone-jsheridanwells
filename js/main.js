@@ -1,12 +1,9 @@
 var CarLot = (function(){
+	let input = document.getElementById('input');
 	let outputFrame = document.getElementById('output-frame');
 	return {
-		getData: function(data) {
-			console.log("data", data);
-			return data
-		},
 		printData: function(data) {
-			console.log("working", data);
+			console.log(" printData working", data);
 			let content = '';
 			for(let i = 0; i < data.cars.length; i++) {
 				if (i % 4 === 0) {
@@ -22,12 +19,13 @@ var CarLot = (function(){
 	    				<p>${data.cars[i].make}</p>
 	    				<p>${data.cars[i].model}</p>
 	    				<p>${data.cars[i].price}</p>
-	    				<p class="Description">
+	    				<p class="description">
 	    					${data.cars[i].description}
 	    				</p>
 	    			</div>
 				`;
 			}
+
 		}
 	}
 }());
