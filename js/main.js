@@ -1,9 +1,7 @@
 var CarLot = (function(){
-	let input = document.getElementById('input');
 	let outputFrame = document.getElementById('output-frame');
 	return {
 		printData: function(data) {
-			console.log(" printData working", data);
 			let content = '';
 			for(let i = 0; i < data.cars.length; i++) {
 				if (i % 4 === 0) {
