@@ -8,7 +8,7 @@ var CarLot = (function (globalScopeCarLot) {
   // Start building the Object that will be attached
   // to the CarLot.Inventory namespace
     globalScopeCarLot.loadInventory = function(callback) {
-      console.log("xhr working");
+      console.log("xhr successful");
       var load = new XMLHttpRequest();
 
       load.addEventListener("load", function () {

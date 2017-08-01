@@ -30,7 +30,7 @@ var CarLot = (function(){
 				});
 			}
 			window.addEventListener('keyup', function(){
-					document.getElementsByClassName('selected')[0].lastElementChild.innerText = input.value;
+					CarLot.editCard();
 				});
 		}
 	}

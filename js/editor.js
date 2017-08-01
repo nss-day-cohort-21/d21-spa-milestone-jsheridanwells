@@ -14,7 +14,8 @@ var CarLot = function (globalScopeCarLot) {
 		}
 	};
 	globalScopeCarLot.editCard = function () {
-
+		let description = document.getElementsByClassName('selected')[0];
+		description.lastElementChild.innerText = input.value;
 	};
 	return globalScopeCarLot;
 } (CarLot || {});
