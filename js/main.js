@@ -1,6 +1,5 @@
 var CarLot = (function(){
 	let outputFrame = document.getElementById('output-frame');
-	let cards = [];
 	return {
 		printData: function(data) {
 			let content = '';
@@ -24,12 +23,15 @@ var CarLot = (function(){
 	    			</div>
 				`;
 			}
-			cards = document.getElementsByClassName('card');
+			let cards = document.getElementsByClassName('card');
 			for (let i = 0; i < cards.length; i++) {
 				cards[i].addEventListener('click', function(e) {
 					CarLot.selectCard(cards, e);
 				});
 			}
+			window.addEventListener('keyup', function(){
+					document.getElementsByClassName('selected')[0].lastElementChild.innerText = input.value;
+				});
 		}
 	}
 }());
